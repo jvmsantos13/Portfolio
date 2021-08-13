@@ -12,7 +12,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 :construction: Projeto em desenvolvimento :construction:
 </h4>
 
+<!--
 ![Página]()
+-->
 
 *Link do projeto:* https://jvmsantos13.github.io/Portfolio/
 
