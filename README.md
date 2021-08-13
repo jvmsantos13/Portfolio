@@ -1,5 +1,5 @@
 ## Página Destino
-<p align="center">Projeto criado com novos conhecimentos em Animações com CSS e Tag's Semânticas. Além de colocar falar um pouco sobre mim e projetos.</p> 
+<p align="center">Projeto criado com novos conhecimentos em animações com CSS, Tag's Semânticas e Media Queries. Além de falar um pouco sobre mim, estudos e projetos.</p> 
 
 ### 🛠 Tecnologias
 
