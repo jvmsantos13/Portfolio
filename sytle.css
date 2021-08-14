@@ -12,7 +12,7 @@ body {
 .header-container {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(146, 146, 146);
+    background-color: rgb(107, 167, 236);
     background-image: url(-);
     background-repeat: no-repeat;
     background-position: center;
@@ -51,5 +51,11 @@ h2 {
    display: flex;
    align-items: center;
    justify-content: center;
-   transition: .5s ease-in-out;
+   transition: .3s ease-in-out;
 }
+
+a:hover {
+    background-color: #ffffff;
+}
+
+/* MENU */
