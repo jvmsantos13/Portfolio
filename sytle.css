@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    color: #181820;
 }
 
 /* HEADER */
@@ -50,7 +51,7 @@ h2 {
    display: flex;
    align-items: center;
    justify-content: center;
-   transition: .3s ease-in-out;
+   transition: .5s ease-in-out;
 }
 
 a:hover {
