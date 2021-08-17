@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
-    color: #181820;
+    color: #060518;
 }
 
 /* HEADER */
@@ -12,7 +12,7 @@ body {
 .header-container {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(88, 174, 224);
+    background-color: #a1b6f0;
     background-image: url();
     background-repeat: no-repeat;
     background-position: center;
@@ -44,9 +44,9 @@ h2 {
 
 .social-media a{
    text-decoration: none;
-   color: #181820;
+   color: #060518;
    padding: 1rem 4rem;
-   border: 1px solid #060608;
+   border: 1px solid #060518;
    min-width: 4rem;
    display: flex;
    align-items: center;
@@ -82,7 +82,7 @@ a:hover {
 .checkbox .trace {
     width: 50px;
     height: 2px;
-    background-color: #060608;
+    background-color: #060518;
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -122,3 +122,30 @@ a:hover {
     transition: 400ms ease-in-out 0s;
 }
 
+.menu-items {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms ease-in-out 0s;
+}
+
+.menu-items ul {
+    list-style-type: none;
+}
+
+.menu-items ul li a {
+    margin: 10px 0;
+    color: #060518;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
