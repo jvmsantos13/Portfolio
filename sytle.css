@@ -169,5 +169,16 @@ a:hover {
     top: 48px;
 }
 
+#toggle:checked + .checkbox {
+    background-color: #ffffff;
+}
 
-dfpks
+#toggle:checked ~ .menu {
+    box-shadow: 0px 0px 0px 100vmax #ffffff;
+    z-index: 1;
+}
+
+#toggle:checked ~ .menu-items {
+    visibility: visible;
+    opacity: 1;
+}
