@@ -194,6 +194,11 @@ a:hover {
     margin: 3rem 0;
 }
 
+.titulo-container {
+    text-align: center;
+    font-size: 40px;    
+}
+
 .card-container {
     display: flex;
     justify-content: space-evenly;
