@@ -269,7 +269,7 @@ a:hover {
     padding: 100px;
 }
 
-.h1-sobre {
+.h1-sobre, .h1-projects {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 4px;
