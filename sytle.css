@@ -258,46 +258,5 @@ a:hover {
 
 /* SOBRE */
 
-.header-container-sobre {
-    height: 100vh;
-    width: 100vw;
-    background-color: #a1b6f0;
-    background-image: url(-);
-    background-repeat: no-repeat;
-    background-position: center;
-    box-sizing: border-box;
-    padding: 100px;
-}
+/* HEADER */
 
-.h1-sobre, .h1-projects {
-    font-size: 50px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
-.p-sobre {
-    font-size: 18px;
-    text-align: justify;
-}
-
-.gif-cards {
-    width: 250px;
-    top: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-
-
-/*FOOTER*/
-
-.footer-sobre {
-    width: 100%;
-    height: 100px;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #060518;
-    font-weight: bold;
-}
