@@ -24,13 +24,13 @@ body {
     padding: 100px;
 }
 
-h1 {
+.h1-home {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
-h2 {
+.h2-home {
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -183,7 +183,7 @@ a:hover {
 
 /* CARDS */
 
-.container {
+.container-home {
     height: auto;
     width: 100%;
     display: flex;
@@ -244,10 +244,53 @@ a:hover {
 
 /*FOOTER*/
 
-.footer {
+.footer-home {
     width: 100%;
     height: 100px;
     background-color: #a1b6f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #060518;
+    font-weight: bold;
+}
+
+
+/* SOBRE */
+
+.header-container-sobre {
+    height: 100vh;
+    width: 100vw;
+    background-color: #a1b6f0;
+    background-image: url(-);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+.h1-sobre {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.p-sobre {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.gif-cards {
+
+}
+
+
+/*FOOTER*/
+
+.footer-sobre {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
