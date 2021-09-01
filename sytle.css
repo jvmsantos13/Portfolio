@@ -23,13 +23,13 @@ body {
     padding: 100px;
 }
 
-.h1-home {
+.h1 {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
-.h2-home {
+.h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -243,7 +243,7 @@ a:hover {
 
 /*FOOTER*/
 
-.footer-home {
+.footer {
     width: 100%;
     height: 100px;
     background-color: #a1b6f0;
@@ -258,5 +258,25 @@ a:hover {
 
 /* SOBRE */
 
-/* HEADER */
+/* HEADER/MAIN */
 
+.header-container-sobre {
+    height: 100vh;
+    width: 100vw;
+    background-color: #a1b6f0;
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+.text-sobre{
+    letter-spacing: 1px;
+    color: #060518;
+    font-size: 18px;
+}
+
+.gif-animado {
+    display: block;
+    margin: auto;
+    width: 300px;
+    margin-top: 50px;
+}
