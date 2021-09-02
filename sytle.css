@@ -41,9 +41,9 @@ body {
 
 .social-media a{
    text-decoration: none;
-   color: #060518;
+   color: black; 
    padding: 1rem 4rem;
-   border: 1px solid #060518;
+   border: 1px solid;
    min-width: 4rem;
    display: flex;
    align-items: center;
@@ -79,7 +79,7 @@ a:hover {
 .checkbox .trace {
     width: 50px;
     height: 2px;
-    background-color: #060518;
+    background-color: black;
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -140,7 +140,7 @@ a:hover {
 
 .menu-items ul li a {
     margin: 10px 0;
-    color: #060518;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -211,7 +211,6 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #a1b6f0;
     background-image: url(img/user.png);
     background-position: center;
     background-size: cover;
@@ -229,7 +228,6 @@ a:hover {
 .card-text {
     width: 40%;
     letter-spacing: 1px;
-    color: #525252;
     font-size: 18px;
 }
 
@@ -239,7 +237,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative; 
+    position: relative;
 }
 
 /*FOOTER*/
@@ -251,7 +249,6 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #060518;
     font-weight: bold;
     margin-top: 10px;
 }
@@ -262,10 +259,9 @@ a:hover {
 /* HEADER/MAIN */
 
 .header-container-overall {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: #a1b6f0;
-    box-sizing: border-box;
     padding: 100px;
 }
 
@@ -290,7 +286,6 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #060518;
     font-weight: bold;
     margin-top: 10px;
 }
@@ -299,31 +294,7 @@ a:hover {
 
 /* HEADER/MAIN */
 
-.card-overall {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #a1b6f0;
-    background-image: url(img/user.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #ffffff;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-}
-
-.card-text-overall {
-    width: 40%;
-    letter-spacing: 1px;
-    font-size: 18px
-}
-
-.main-projects-overall {
+.main-projects-overall, .main-projects-overall:hover {
+    background-color: transparent;
     text-decoration: none;
-
 }
