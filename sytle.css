@@ -259,9 +259,12 @@ a:hover {
 /* HEADER/MAIN */
 
 .header-container-overall {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-color: #a1b6f0;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
     padding: 100px;
 }
 
@@ -269,6 +272,13 @@ a:hover {
     letter-spacing: 1px;
     color: #060518;
     font-size: 18px;
+}
+
+.text-overall{
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
+    
 }
 
 .gif-animado {
@@ -288,13 +298,4 @@ a:hover {
     justify-content: center;
     font-weight: bold;
     margin-top: 10px;
-}
-
-/* PROJETOS */
-
-/* HEADER/MAIN */
-
-.main-projects-overall, .main-projects-overall:hover {
-    background-color: transparent;
-    text-decoration: none;
 }
