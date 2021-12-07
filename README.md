@@ -17,7 +17,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ![Página]()
 -->
 
-*Link do projeto:* https://jvmsantos13.github.io/Portfolio/
+*Link do projeto:* https://jvmsantos13.github.io/portfolio/
 
 ## Autor
 João Victor Monteiro <br />
